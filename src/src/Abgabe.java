@@ -16,4 +16,9 @@ public class Abgabe {
         this.uebungsblatt = uebungsblatt;
         this.istKorrigiert = false;
     }
+
+    public void korrigieren(){
+        System.out.println("Abgabe korrigiert");
+        istKorrigiert = true;
+    }
 }
